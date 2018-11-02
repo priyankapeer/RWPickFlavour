@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |s|
 
 # 1
@@ -14,13 +15,13 @@ s.version = "0.1.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 # 4 - Replace with your name and e-mail address
-s.author = { "Keegan Rush" => "keeganrush@gmail.com" }
+s.author = { "Priyanka Sutreja" => "priyanka@peerbits.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/TheCodedSelf/RWPickFlavor"
+s.homepage = "https://github.com/priyankapeer/RWPickFlavor"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/TheCodedSelf/RWPickFlavor.git",
+s.source = { :git => "https://github.com/priyankapeer/RWPickFlavor.git",
 :tag => "#{s.version}" }
 
 # 7
@@ -38,4 +39,3 @@ s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "4.2"
 
 end
-
